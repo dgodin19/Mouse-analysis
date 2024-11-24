@@ -64,4 +64,17 @@ This project not only allowed me to practice RNA sequencing analysis but also pr
 ### Classification based differential expression heatmap
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
 ### Analysis of heatmaps
-So, what is going on here? 
+So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates. Filtering through the classification deseq output for transcripts with the highest variance, we find that that these transcripts are: 
+| Transcript ID        | Variance  |
+|-----------------------|-----------|
+| NM_026147.7          | 996,741   |
+| NM_008143.3          | 987,546   |
+| NM_018796.3          | 974,413   |
+| NM_010106.2          | 972,281   |
+| NM_001410067.1       | 967,635   |
+| NM_011508.2          | 917,940   |
+| NM_001419058.1       | 897,330   |
+| NM_007687.5          | 866,396   |
+| NM_008774.3          | 851,382   |
+| NM_016959.4          | 841,634   |
+
