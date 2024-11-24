@@ -37,7 +37,7 @@ The general workflow for this project included the following steps:
    - Conduct differential expression analysis using:
      - Feature counts output.
      - Salmon classification output.
-   - Generate heatmaps for both analyses to compare results.
+   - Generate heatmaps for both analyses to compare results. Differential expression done using DESeq. 
 
 ---
 
@@ -57,3 +57,11 @@ For **PRJNA825538**, the design matrix was as follows:
 ---
 
 This project not only allowed me to practice RNA sequencing analysis but also provided valuable insights into how cancer-related research is conducted using mouse models. The methods and outputs have enhanced my understanding of differential expression and bioinformatics workflows.
+
+## Heatmaps for PRJNA825538
+### Feature counts differential expression heatmap
+![Heatmap for feature counts](featureresultsPRJNA825538/FeaturecountsHeatmap-1.png)
+### Classification based differential expression heatmap
+![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
+### Analysis of heatmaps
+So, what is going on here? 
