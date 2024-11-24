@@ -64,7 +64,7 @@ This project not only allowed me to practice RNA sequencing analysis but also pr
 ### Classification based differential expression heatmap
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
 ### Analysis of heatmaps
-So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates. Filtering through the classification deseq output for transcripts with the highest variance, we find that that these transcripts are: 
+So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates of the same condition. Filtering through the [classification deseq output](classificationresultsPRJNA825538/classification_method.csv) for transcripts with the highest variance, we find that that these transcripts are: 
 | Transcript ID        | Variance  |
 |-----------------------|-----------|
 | NM_026147.7          | 996,741   |
@@ -78,3 +78,29 @@ So, what is going on here? From both heatmaps, it looks like there are a few spo
 | NM_008774.3          | 851,382   |
 | NM_016959.4          | 841,634   |
 
+Filtering through the [feature counts deseq output](featureresultsPRJNA825538/differential_expression_results.csv), we find that the genes with the highest variance are: 
+| Gene    | Control Variance    |  
+|---------|---------------------|
+| Hsdl1   | 9.67926e-05         |
+| Rnf6    | 8.89335e-05         |
+| Lonrf3  | 7.61594e-05         |
+| St7     | 7.44192e-05         |
+| Dnajc13 | 7.2517e-05          |
+| Rilpl2  | 7.24769e-05         |
+| Cdk16   | 6.60855e-05         |
+| Ndufb9  | 6.1521e-05          |
+| Pola2   | 5.63509e-05         |
+| Mlph    | 5.46395e-06         |
+
+| Gene    | Knockdown Variance   |
+|---------|----------------------|
+| Ldah    | 9.82739e-05          |
+| Stk24   | 9.62228e-05          |
+| Rnf7    | 9.42757e-05          |
+| Ccdc25  | 8.80526e-05          |
+| Rab11a  | 8.51672e-07          |
+| Gnai1   | 7.80612e-05          |
+| Stambpl1| 7.47716e-05          |
+| Vopp1   | 7.29683e-06          |
+| Rpl36al | 7.2966e-05           |
+| Rab17   | 7.27788e-05          |
