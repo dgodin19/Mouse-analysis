@@ -52,6 +52,7 @@ For **PRJNA825538**, the design matrix was as follows:
 | `control_3`    | `control`    |
 | `knockdown_1`  | `knockdown`  |
 | `knockdown_2`  | `knockdown`  |
+| `knockdown_3`  | `knockdown`  |
 
 ---
 
