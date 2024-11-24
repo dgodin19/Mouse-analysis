@@ -65,20 +65,34 @@ This project not only allowed me to practice RNA sequencing analysis but also pr
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
 ### Analysis of heatmaps
 So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates of the same condition. Filtering through the [classification deseq output](classificationresultsPRJNA825538/classification_method.csv) for transcripts with the highest variance, we find that that these transcripts are: 
-| Transcript ID        | Variance  |
-|-----------------------|-----------|
-| NM_026147.7          | 996,741   |
-| NM_008143.3          | 987,546   |
-| NM_018796.3          | 974,413   |
-| NM_010106.2          | 972,281   |
-| NM_001410067.1       | 967,635   |
-| NM_011508.2          | 917,940   |
-| NM_001419058.1       | 897,330   |
-| NM_007687.5          | 866,396   |
-| NM_008774.3          | 851,382   |
-| NM_016959.4          | 841,634   |
+| Gene        | Control Variance   |
+|-------------|--------------------|
+| NM_009076.3 | 997,537            |
+| NM_011664.5 | 984,432            |
+| NR_102727.1 | 984,164            |
+| NM_024277.2 | 978,717            |
+| NM_013765.2 | 928,688            |
+| NM_001368637.1 | 926,174         |
+| NM_019883.4 | 909,616            |
+| NM_018796.3 | 894,188            |
+| NM_016738.5 | 885,135            |
+| NM_018853.3 | 882,073            |
 
-Filtering through the [feature counts deseq output](featureresultsPRJNA825538/differential_expression_results.csv), we find that the genes with the highest variance are: 
+| Gene          | Knockdown Variance   |
+|---------------|----------------------|
+| NM_001407444.1 | 983,226              |
+| NM_011029.4    | 926,273              |
+| NM_001355384.1 | 862,754              |
+| NR_110342.1    | 846,139              |
+| NM_009076.3    | 796,498              |
+| NM_024175.3    | 783,252              |
+| NM_025587.2    | 778,767              |
+| NM_172086.2    | 742,409              |
+| NM_009084.5    | 719,561              |
+| NM_001424562.1 | 693,605              |
+
+
+Filtering through the [feature counts deseq output](featureresultsPRJNA825538/normalized_counts.csv), we find that the genes with the highest variance are: 
 | Gene    | Control Variance    |  
 |---------|---------------------|
 | Hsdl1   | 9.67926e-05         |
