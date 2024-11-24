@@ -37,7 +37,7 @@ The general workflow for this project included the following steps:
    - Conduct differential expression analysis using:
      - Feature counts output.
      - Salmon classification output.
-   - Generate heatmaps for both analyses to compare results. Differential expression done using DESeq. 
+   - Generate heatmaps for both analyses to compare results. Differential expression done using DESeq2. 
 
 ---
 
@@ -125,3 +125,6 @@ The transcripts or genes are located near low coverage, high expression areas.
 THe transcripts or genes are located in an adequate coverage, high expression area. 
 
 The genes and transcripts in the first situations show intersample variability in biological replicates due to low coverage. The genes and transcripts in the second situation are most likely biological differences. 
+
+### Analysis of differentially expressed genes - which genes are the most up or down regulated across all samples? 
+
