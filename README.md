@@ -57,7 +57,3 @@ For **PRJNA825538**, the design matrix was as follows:
 ---
 
 This project not only allowed me to practice RNA sequencing analysis but also provided valuable insights into how cancer-related research is conducted using mouse models. The methods and outputs have enhanced my understanding of differential expression and bioinformatics workflows.
-
-knockdown_3,knockdown
-
-
