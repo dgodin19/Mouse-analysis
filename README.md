@@ -118,3 +118,10 @@ Filtering through the [feature counts deseq output](featureresultsPRJNA825538/no
 | Vopp1   | 7.29683e-06          |
 | Rpl36al | 7.2966e-05           |
 | Rab17   | 7.27788e-05          |
+
+
+Looking at IGV with some of these transcripts and genes, they mostly fall into two situations: 
+The transcripts or genes are located near low coverage, high expression areas. 
+THe transcripts or genes are located in an adequate coverage, high expression area. 
+
+The genes and transcripts in the first situations show intersample variability in biological replicates due to low coverage. The genes and transcripts in the second situation are most likely biological differences. 
