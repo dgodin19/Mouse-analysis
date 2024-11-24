@@ -65,7 +65,7 @@ This project not only allowed me to practice RNA sequencing analysis but also pr
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
 ### Analysis of heatmaps
 So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates of the same condition. Filtering through the [classification deseq output](classificationresultsPRJNA825538/classification_method.csv) for transcripts with the highest variance, we find that that these transcripts are: 
-| Gene        | Control Variance   |
+| Transcript        | Control Variance   |
 |-------------|--------------------|
 | NM_009076.3 | 997,537            |
 | NM_011664.5 | 984,432            |
@@ -78,7 +78,7 @@ So, what is going on here? From both heatmaps, it looks like there are a few spo
 | NM_016738.5 | 885,135            |
 | NM_018853.3 | 882,073            |
 
-| Gene          | Knockdown Variance   |
+| Transcript          | Knockdown Variance   |
 |---------------|----------------------|
 | NM_001407444.1 | 983,226              |
 | NM_011029.4    | 926,273              |
