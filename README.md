@@ -253,3 +253,8 @@ Feature based DESeq2
 | NM_001018042.3 | 23.3     | 46.6      | 0         | 0.004       | -7.9           | 1.65  | -4.82 | 1.4e-06 | 4.4e-02 | 3e-04 | 0        | 26.7      | 21.9      | 91.1      | 0           | 0           | 0           |
 | NM_001081069.3 | 14       | 27.9      | 0         | 0.007       | -7.2           | 1.5   | -4.82 | 1.4e-06 | 4.5e-02 | 3e-04 | 0        | 26.7      | 38.7      | 18.4      | 0           | 0           | 0           |
 | NM_033073.3    | 222.9    | 130.5     | 315.2     | 2.409       | 1.3            | 0.26  | 4.81  | 1.5e-06 | 4.6e-02 | 3e-04 | 0        | 135.7     | 148.2     | 107.5     | 247.4       | 325.9       | 372.4       |
+
+
+### Gene ontology analysis
+Finally, we can do a gene ontology analysis. GOrilla was used here to determine the pathway, and the genes from the classification file were used here. Based on this dataset, the classification method had a better assignment rate. The classification method would often have assignment rates of ~70%, whereas the feature counting method had assignment rates of ~50%. 
+
