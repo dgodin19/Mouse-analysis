@@ -60,7 +60,7 @@ This project not only allowed me to practice RNA sequencing analysis but also pr
 
 ## Heatmaps for PRJNA825538
 ### Feature counts differential expression heatmap
-![Heatmap for feature counts](featureresultsPRJNA825538/FeaturecountsHeatmap-1.png)
+![Heatmap for feature counts](featureresultsPRJNA825538/actualheatmap-1.png)
 ### Classification based differential expression heatmap
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
 ### Analysis of heatmaps
