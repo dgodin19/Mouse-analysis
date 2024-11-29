@@ -767,4 +767,4 @@ The design matrix for PRJNA825537 was the same as 825538: 3 control replicates a
 | XR_881907.4    | 37.863    | 83.486    | 37.7     | 16.3      | 59.1      | 3.611       | 1.9            | 0.33  | 5.61   | 2.0e-08 | 6.0e-04 | 0      | 0        | 15.1          | 16.6          | 17.2          | 55.5            | 52.7            | 69.1            |
 ### Gene ontology analysis 
 ![classification analysis](classificationresultsPRJNA825537/FunctionalAnalysisPart2.png)
-![feature_analysis(featureresultsPRJNA825537/Functionalanalysispart2.png)
+![feature_analysis](featureresultsPRJNA825537/Functionalanalysispart2.png)
