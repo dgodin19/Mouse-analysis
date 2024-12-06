@@ -6,10 +6,6 @@ RNA sequencing analysis of **"[BRCA mutational status shapes the stromal microen
 
 This project stems from my experience working as a scribe for a breast surgeon. Inspired by the skills I acquired from the **Biostars Handbook**, I explored the Sequence Read Archive (SRA) and searched for "BRCA". Among the results, this mouse study stood out. While working with the human genome might have been computationally intensive for my system, I found this mouse study to be a manageable and meaningful entry point into RNA sequencing analysis. Moreover, cancer research commonly employs mouse models, making this project a great way to integrate my background with new skills.
 
-### Initial Focus
-
-The analysis began with **PRJNA825538**, with plans to analyze the other two datasets (**PRJNA825537** and **PRJNA825539**) later.
-
 ---
 
 ## Workflow Overview
@@ -55,9 +51,6 @@ For **PRJNA825538**, the design matrix was as follows:
 | `knockdown_3`  | `knockdown`  |
 
 ---
-
-This project not only allowed me to practice RNA sequencing analysis but also provided valuable insights into how cancer-related research is conducted using mouse models. The methods and outputs have enhanced my understanding of differential expression and bioinformatics workflows.
-
 ## Heatmaps for PRJNA825538
 ### Feature counts differential expression heatmap
 ![Heatmap for feature counts](featureresultsPRJNA825538/actualheatmap-1.png)
@@ -759,3 +752,16 @@ The design matrix for PRJNA825537 was the same as 825538: 3 control replicates a
 ### Gene ontology analysis 
 ![classification analysis](classificationresultsPRJNA825537/FunctionalAnalysisPart2.png)
 ![feature_analysis](featureresultsPRJNA825537/Functionalanalysispart2.png)
+
+## PRJNA825539
+For this last set of sequencing runs, the author most likely added a 4th knockdown due to data loss in the 2nd knockdown: 
+
+| File                     | Format | Type | Num Seqs   | Sum Len       | Min Len | Avg Len | Max Len |
+|--------------------------|--------|------|------------|---------------|---------|---------|---------|
+| reads/control_1.fastq    | FASTQ  | DNA  | 9,635,753  | 722,681,475   | 75      | 75      | 75      |
+| reads/control_2.fastq    | FASTQ  | DNA  | 10,532,329 | 789,924,675   | 75      | 75      | 75      |
+| reads/control_3.fastq    | FASTQ  | DNA  | 10,728,587 | 804,644,025   | 75      | 75      | 75      |
+| reads/knockdown_1.fastq  | FASTQ  | DNA  | 11,196,805 | 839,760,375   | 75      | 75      | 75      |
+| **reads/knockdown_2.fastq  | FASTQ  | DNA  | 5,556,190  | 416,714,250   | 75      | 75      | 75  **    |
+| reads/knockdown_3.fastq  | FASTQ  | DNA  | 18,303,794 | 1,372,784,550 | 75      | 75      | 75      |
+| reads/knockdown_4.fastq  | FASTQ  | DNA  | 13,110,593 | 983,294,475   | 75      | 75      | 75      |
