@@ -762,6 +762,6 @@ For this last set of sequencing runs, the author most likely added a 4th knockdo
 | reads/control_2.fastq    | FASTQ  | DNA  | 10,532,329 | 789,924,675   | 75      | 75      | 75      |
 | reads/control_3.fastq    | FASTQ  | DNA  | 10,728,587 | 804,644,025   | 75      | 75      | 75      |
 | reads/knockdown_1.fastq  | FASTQ  | DNA  | 11,196,805 | 839,760,375   | 75      | 75      | 75      |
-| **reads/knockdown_2.fastq  | FASTQ  | DNA  | 5,556,190  | 416,714,250   | 75      | 75      | 75  **    |
+| reads/knockdown_2.fastq  | FASTQ  | DNA  | 5,556,190  | 416,714,250   | 75      | 75      | 75      |
 | reads/knockdown_3.fastq  | FASTQ  | DNA  | 18,303,794 | 1,372,784,550 | 75      | 75      | 75      |
 | reads/knockdown_4.fastq  | FASTQ  | DNA  | 13,110,593 | 983,294,475   | 75      | 75      | 75      |
