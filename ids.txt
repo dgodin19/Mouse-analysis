@@ -1,8 +1,7 @@
-psc_1
-psc_2
-kpc_control_1
-kpc_control_2
-kpc_control_3
-kpc_knockdown_1
-kpc_knockdown_2
-kpc_knockdown_3
+control_1
+control_2
+control_3
+knockdown_1
+knockdown_2
+knockdown_3
+knockdown_4

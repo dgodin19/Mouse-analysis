@@ -1,7 +1,8 @@
 sample,condition
-kpc_control_1,kpc_control
-kpc_control_2,kpc_control
-kpc_control_3,kpc_control
-kpc_knockdown_1,kpc_knockdown
-kpc_knockdown_2,kpc_knockdown
-kpc_knockdown_3,kpc_knockdown
+control_1,control
+control_2,control
+control_3,control
+knockdown_1,knockdown
+knockdown_2,knockdown
+knockdown_3,knockdown
+knockdown_4,knockdown

@@ -1,0 +1,13 @@
+Status	bam/control_1.bam	bam/control_2.bam	bam/control_3.bam	bam/knockdown_1.bam	bam/knockdown_2.bam	bam/knockdown_3.bam	bam/knockdown_4.bam
+Assigned	5236558	3906794	5947333	4224109	2824474	7853677	4897642
+Unassigned_Unmapped	2658064	5213763	2719082	5238641	1511125	7497937	6220961
+Unassigned_MappingQuality	0	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0	0
+Unassigned_MultiMapping	3417996	2730002	4010780	3678707	2475861	6265892	4304038
+Unassigned_Secondary	0	0	0	0	0	0	0
+Unassigned_Nonjunction	0	0	0	0	0	0	0
+Unassigned_NoFeatures	499518	416432	583569	450112	379578	747653	504735
+Unassigned_Overlapping_Length	0	0	0	0	0	0	0
+Unassigned_Ambiguity	222046	174729	261804	201612	127663	365169	230126
