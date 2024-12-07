@@ -767,5 +767,6 @@ For this last set of sequencing runs, the author most likely added a 4th knockdo
 | reads/knockdown_4.fastq  | FASTQ  | DNA  | 13,110,593 | 983,294,475   | 75      | 75      | 75      |
 
 ### feature counts heatmap
-![feature counts](featureresultsPRJNA822539/heatmap.pdf)
+![feature counts](featureresultsPRJNA822539/heatmap-1.png)
 ### classification counts heatmap
+![classification counts](classificationresultsPRJNA822539/heatmap-1.png)
