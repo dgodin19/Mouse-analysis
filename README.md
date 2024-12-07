@@ -37,7 +37,7 @@ The general workflow for this project included the following steps:
 
 ---
 
-## Current Progress
+## PRJNA822538
 
 For **PRJNA825538**, the design matrix was as follows:
 
@@ -56,69 +56,6 @@ For **PRJNA825538**, the design matrix was as follows:
 ![Heatmap for feature counts](featureresultsPRJNA825538/actualheatmap-1.png)
 ### Classification based differential expression heatmap
 ![Heatmap for classification based method](classificationresultsPRJNA825538/classification_heatmap-1.png)
-### Analysis of heatmaps
-So, what is going on here? From both heatmaps, it looks like there are a few spots of overlapping expression and intersample variability between biological replicates of the same condition. Filtering through the [classification deseq output](classificationresultsPRJNA825538/classification_method.csv) for transcripts with the highest variance, we find that that these transcripts are: 
-| Transcript        | Control Variance   |
-|-------------|--------------------|
-| NM_009076.3 | 997,537            |
-| NM_011664.5 | 984,432            |
-| NR_102727.1 | 984,164            |
-| NM_024277.2 | 978,717            |
-| NM_013765.2 | 928,688            |
-| NM_001368637.1 | 926,174         |
-| NM_019883.4 | 909,616            |
-| NM_018796.3 | 894,188            |
-| NM_016738.5 | 885,135            |
-| NM_018853.3 | 882,073            |
-
-| Transcript          | Knockdown Variance   |
-|---------------|----------------------|
-| NM_001407444.1 | 983,226              |
-| NM_011029.4    | 926,273              |
-| NM_001355384.1 | 862,754              |
-| NR_110342.1    | 846,139              |
-| NM_009076.3    | 796,498              |
-| NM_024175.3    | 783,252              |
-| NM_025587.2    | 778,767              |
-| NM_172086.2    | 742,409              |
-| NM_009084.5    | 719,561              |
-| NM_001424562.1 | 693,605              |
-
-
-Filtering through the [feature counts deseq output](featureresultsPRJNA825538/normalized_counts.csv), we find that the genes with the highest variance are: 
-| Gene    | Control Variance    |  
-|---------|---------------------|
-| Hsdl1   | 9.67926e-05         |
-| Rnf6    | 8.89335e-05         |
-| Lonrf3  | 7.61594e-05         |
-| St7     | 7.44192e-05         |
-| Dnajc13 | 7.2517e-05          |
-| Rilpl2  | 7.24769e-05         |
-| Cdk16   | 6.60855e-05         |
-| Ndufb9  | 6.1521e-05          |
-| Pola2   | 5.63509e-05         |
-| Mlph    | 5.46395e-06         |
-
-| Gene    | Knockdown Variance   |
-|---------|----------------------|
-| Ldah    | 9.82739e-05          |
-| Stk24   | 9.62228e-05          |
-| Rnf7    | 9.42757e-05          |
-| Ccdc25  | 8.80526e-05          |
-| Rab11a  | 8.51672e-07          |
-| Gnai1   | 7.80612e-05          |
-| Stambpl1| 7.47716e-05          |
-| Vopp1   | 7.29683e-06          |
-| Rpl36al | 7.2966e-05           |
-| Rab17   | 7.27788e-05          |
-
-
-Looking at IGV with some of these transcripts and genes, they mostly fall into two situations: 
-The transcripts or genes are located near low coverage, high expression areas. 
-THe transcripts or genes are located in an adequate coverage, high expression area. 
-
-The genes and transcripts in the first situations show intersample variability in biological replicates due to low coverage. The genes and transcripts in the second situation are most likely biological differences. 
-
 ### Analysis of differentially expressed genes - which genes are the most up or down regulated across all samples? 
 
 Both files were filtered so that FDR was <= 0.05. 
