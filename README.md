@@ -2,14 +2,17 @@
 
 RNA sequencing analysis of **"[BRCA mutational status shapes the stromal microenvironment of pancreatic cancer linking CLU+ CAF expression with HSF1 signaling (KPC) (house mouse)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9622893/)"** from the Weizmann Institute of Science. Sequencing runs were sourced from **PRJNA825537**, **PRJNA825538**, and **PRJNA825539**, using the GRCm39 RefSeq assembly as the reference genome. Reference files were downloaded via the NCBI datasets command-line tool and reads were downloaded from the SRA.
 
-The work in the paper that most correlates to this analysis would be starting from the section "HSF1 upregulates CLU/αSMA ratio in BRCA-mut tumors" which corresponds to  PRJNA825537. PRJNA825538 corresponds to " BRCA-deficient cancer cells induce a distinct transcriptional program in PSCs" in addition to PRJNA822539. The authors note that: 
+The section of the paper most relevant to this analysis begins with "HSF1 upregulates CLU/αSMA ratio in BRCA-mut tumors," which corresponds to dataset PRJNA825537. Additionally, PRJNA825538 aligns with the findings in "BRCA-deficient cancer cells induce a distinct transcriptional program in PSCs," alongside PRJNA825539.
+
+The authors note:
+
 >PSCs are highly plastic and assume distinct transcriptional and functional properties depending on culture conditions (2D vs 3D, cancer CM etc)11. To explore the transcriptional changes of CAFs in an in-vivo setting, we >inoculated KPC-shBrca2 and KPC-shControl cells orthotopically into the pancreata of C57BL/6 J mice. Three weeks later, tumors were harvested, digested into single-cell suspensions, and CAFs were isolated by fluorescence->activated cell sorting (FACS; Fig. 5b and Supplementary Figure 5g). The cells were lysed immediately after sorting and processed for RNA-seq. Differential expression analysis revealed 482 genes significantly upregulated >and 666 genes significantly downregulated in CAFs from KPC-shBrca2 tumors compared to CAFs from KPC-shControl tumors (Fig. 5c, d, Supplementary Figure 5h, and Supplementary Data 10). Pathway analysis highlighted cell >adhesion, MAPK-cascade regulation, and positive regulation of cell death among the most differentially upregulated pathways in CAFs from KPC-shBrca2 tumors compared to those from KPC-shControl tumors (Supplementary Data >10). ECM organization, IGF signaling and TGFβ signaling were differentially downregulated in these CAFs compared to CAFs from KPC-shControl tumors (Fig. 5c, d and Supplementary Data 10). Clu was among the significantly >upregulated in CAFs from KPC- shBrca2 tumors compared to KPC-shControl tumors (Supplementary Data 10), consistently supporting its activation in BRCA-mut human tumors and Brca2-deficientcancer-conditioned PSCs.
 
 The analysis yielded a large number of differentially expressed genes, along with pathways consistent with the findings in the original study. Specifically, I was able to reproduce the results depicted in Figure 5, focusing on the most differentially expressed genes highlighted in panels 5A and 5D, using datasets PRJNA825539 and PRJNA825537.
 
 While the authors employed Metascape for pathway enrichment analysis, I used Panther. For the purpose of demonstrating my ability to perform pathway enrichment, Panther was an effective and suitable alternative.
 
-Both the authors and I utilized DESeq2 for differential expression analysis
+Both the authors and I utilized DESeq2 for differential expression analysis.
 
 ## Motivation
 
